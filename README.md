@@ -10,7 +10,13 @@
   </a>
 </p>
 
-API incrível para o teste técnico ZRP para desenvolvedor fullstack. 
+API incrível para o teste técnico para posição de desenvolvedor. 
+
+Contém rotas HTTP para o gerenciamento completo de super heróis e combate de ameaças ao redor do mundo.
+
+A lógica da aplicação conecta o servidor ao socket.io que dispara ameaças a cada 30 segundos.
+
+Para resolver a ameaça, essa aplicação considera a latitude e longitude de cada herói, enviando o herói mais próximo e com nível adequado para cada tipo de ameaça.
 
 # Features Incluídas
 
