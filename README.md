@@ -190,7 +190,9 @@ O script de test também invoca os scripts `pretest` e `posttest`, responsáveis
 ```
 # Disclaimer
 
-Para aplicação em modo produção, as variáveis de ambiente necessárias para executar o projeto não devem estar incluídas no repositório. Sendo este apenas um desafio técnico, credenciais estão incluídas.
+Para aplicação em modo produção, as variáveis de ambiente necessárias para executar o projeto não devem estar incluídas no repositório. Sendo este apenas uma demonstração, credenciais estão incluídas para facilitar a execução.
+
+Para aplicativos de produção, utilizar .env.example com as variáveis necessárias com valor vazio.
 
 # Contributions
 
