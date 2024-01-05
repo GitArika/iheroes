@@ -10,7 +10,7 @@
   </a>
 </p>
 
-API incrível para o teste técnico para posição de desenvolvedor. 
+API incrível para demonstração de habilidades técnicas como desenvolvedor backend. 
 
 Contém rotas HTTP para o gerenciamento completo de super heróis e combate de ameaças ao redor do mundo.
 
