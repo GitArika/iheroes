@@ -41,11 +41,11 @@ Para resolver a ameaça, essa aplicação considera a latitude e longitude de ca
 - MongoDB
 - Node-schedule
 
-# Get Started
+# Pré Requisitos
 
-O ambiente do projeto está dockerizado, seguindo o requisito de virtualização.
+O ambiente do projeto está dockerizado, portanto, instale antes de prosseguir, [link de referencia](https://www.docker.com/).
 
-# Docker
+# Sobre o Docker
 
 A aplicação utiliza as imagens `postgres` e `mongodb` diretamente do dockerhub e a imagem `app` criada através do arquivo `Dockerfile`.
 
