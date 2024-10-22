@@ -14,7 +14,7 @@ class AuthenticationService {
         })
 
         if (foundUser) {
-            throw new BusinessError('E-mail already in use.', 400)
+            throw new BusinessError('Something went wrong. Please try again later.', 400)
         }
 
         const user = new User({ ...signup, password_hash: '' })
@@ -32,7 +32,7 @@ class AuthenticationService {
             },
         })
         if (!foundUser) {
-            throw new BusinessError('E-mail does not exist.', 400)
+            throw new BusinessError('Invalid credentials.', 401)
         }
 
         const passwordMatch = await bcrypt.compare(
@@ -41,7 +41,7 @@ class AuthenticationService {
         )
 
         if (!passwordMatch) {
-            throw new BusinessError('Password does not match.', 401)
+            throw new BusinessError('Invalid credentials.', 401)
         }
 
         delete foundUser.dataValues.password_hash
